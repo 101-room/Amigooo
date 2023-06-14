@@ -4,8 +4,10 @@
     background: #DDA0DD;
 
 }
-
-ul {
+/*.topo {
+  justify-content: space-between;
+  align-items: left;*/
+/*ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -19,32 +21,23 @@ ul {
 
     color: #000000;
 }
-
+*/
+.pia {
+  margin-left: 100px;
+  margin-top: 130px;
+}
 .ftperfil {
-    /*position: absolute;
-    width: 212px;
-    height: 220px;
-    left: 79px;
-    top: 77px;
-
-    background: url(image);
-    border-radius: 129.5px;*/
-    position: absolute;
-    width: 212px;
-    height: 220px;
-    left: 79px;
-    top: 77px;
+    width: 15%;
+    height: auto;
 
     background: url(image);
     border-radius: 129.5px;
 }
 
 .nome {
-    position: absolute;
     width: 185px;
     height: 76px;
-    left: 339px;
-    top: 127px;
+
 
     font-family: 'Girassol';
     font-style: normal;
@@ -56,12 +49,6 @@ ul {
 }
 
 .idade {
-    position: absolute;
-    width: 303px;
-    height: 63px;
-    left: 139px;
-    top: 328px;
-
    font-family: 'Girassol';
     font-style: normal;
     font-weight: 400;
@@ -73,12 +60,6 @@ ul {
 }
 
 .hobbies {
-    position: absolute;
-    width: 253px;
-    height: 171px;
-    left: 139px;
-    top: 398px;
-
     font-family: 'Girassol';
     font-style: normal;
     font-weight: 400;
@@ -89,12 +70,6 @@ ul {
 }
 
 .gostomusical {
-    position: absolute;
-    width: 481px;
-    height: 75px;
-    left: 838px;
-    top: 512px;
-
     font-family: 'Girassol';
     font-style: normal;
     font-weight: 400;
@@ -106,18 +81,12 @@ ul {
 }
 
 .imghobby img{
-    position: absolute;
-    width: 289px;
-    height: 423px;
-    left: 121px;
-    top: 576px;
-
+    
     background: url(image);
     border-radius: 57px;
 }
 
 .music1 img{
-    position: absolute;
 width: 244px;
 height: 374px;
 
@@ -126,7 +95,6 @@ border-radius: 45px;
 }
 
 .music2 img{
-    position: absolute;
     width: 250px;
     height: 374px;
 
@@ -135,11 +103,8 @@ border-radius: 45px;
 }
 
 .music3 img{
-    position: absolute;
     width: 247px;
     height: 374px;
-    left: 1158px;
-    top: 625px;
 
     background: url(image);
     border-radius: 45px;
